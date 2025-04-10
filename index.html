@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<!-- Tot document comença així -->
+<html lang="ca">
+  <!-- Reconeix l'idioma, en aquest cas el CATALÀ -->
+  <head>
+    <!-- INICI HEAD -->
+    <meta charset="UTF-8/" />
+    <!--  Reconeix els accents, ç l·l, etc... -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Per Internet Explorer -->
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <!-- Ajusta la pàgina a qualsevol dispositiu -->
+    <meta name="description" content="Pàgina web" />
+    <!-- Els navegadors ho utilitzen per posicionar la pàgina -->
+    <meta name="author" content="Josep Heras" />
+    <!-- Conté informació de l'autor de la pàgina -->
+
+    <title>Josep Heras WEB</title>
+    <!-- El tìtol que té la nostre pàgina -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Insereix les fonts per aquest projecte en aquest cas Montserrat de Google Fonts -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <!-- Insereix la icona -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+    />
+    <!-- Insereix estils per la normalització a tots el navegadors -->
+    <link rel="stylesheet" href="css/estils.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/carousel.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <!-- Insereix els estils de CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <!-- Insereix estils Bootstrap -->
+    <script defer src="js/app.js"></script>
+    <!-- Insereix estils Java Script -->
+  </head>
+  <!-- FI HEADv-->
+  <!-- =============================================================================================================================== -->
+  <!-- INICI BODY -->
+  <body>
+    <!-- Inici Barra Navegació -->
+    <!-- Inici Logo -->
+    <header class="topheader">
+      <nav class="topnav">
+        <a href="index.html" class="logo">
+          <img
+            height="50"
+            width="50"
+            src="img/josep_p.jpg"
+            alt="logo Josep Heras"
+          />
+          <div class="logotype">
+            Josep<br />
+            Heras
+          </div>
+          <!-- Fi Logo -->
+          <!-- Inici Navbar -->
+        </a>
+        <button class="open-menu" aria-label="Obrir menú">
+          <img src="img/hamburger-icon.svg" alt="obrir menú" />
+        </button>
+        <ul class="menu">
+          <button class="close-menu" aria-label="Tancar menú">
+            <img src="img/close-icon.svg" alt="tancar menú" />
+          </button>
+          <li><a href="documents/coneixer.html">Qui sóc?</a></li>
+          <li><a href="documents/contacte.html">Contacte</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#activities">Aficions</a></li>
+          <!--  ull!! menú 
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                aria-haspopup="true" aria-expanded="false">Aficions<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="btt.php"><i class="fa-solid fa-person-biking"></i> BTT</a></li>
+                <li><a href="road.php"><i class="fa-solid fa-bicycle"></i> ROAD bike</a></li>
+                <li><a href="fotografia.php"> Fotografia</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header" Altres aficions></li>
+          </li>
+          <li><a href="motor.php"> Motor</a></li>
+          <li><a href="informatica.php"> Informàtica</a></li>
+          <li><a href="joc.php"><i class="fa-solid fa-box-archive"></i> Un xic de tot</a></li>
+          ull!! menú  -->
+        </ul>
+        <ul class="menu">
+          <li>
+            <a href="index.html"
+              ><img height="30" width="30" src="img/catala.png" alt="catala"
+            /></a>
+          </li>
+          <li>
+            <a href="index_e.html"
+              ><img height="28" width="28" src="img/english.png" alt="english"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Fi Barra Navegació  -->
+    <div class="construction">
+      <h1>M'ESTAN DISSENYANT !!!</h1>
+      <img src="img/cons_1.jpg" width="150" height="150" alt="En construcció" />
+      <h2>ENS VEIEM AVIAT !!!</h2>
+    </div>
+
+    <!-- Inici Articles Destacats -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img
+            class="img-circle"
+            src="img/carretera.png"
+            title="Josep"
+            width="140"
+            height="140"
+          />
+          <h2>Bicicleta de Carretera</h2>
+          <p align="justify">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet
+            vitae placeat optio alias nostrum enim modi maiores voluptatem autem
+            officiis!
+          </p>
+          <p>
+            <a class="btn btn-success" href="#" role="button"
+              >Més detalls...&raquo;</a
+            >
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <img
+            class="img-circle"
+            src="img/btt.png"
+            title="Josep"
+            width="140"
+            height="140"
+          />
+          <h2>Bicicleta de Muntanya</h2>
+          <p align="justify">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam
+            tenetur iure suscipit ad? Harum, dignissimos!
+          </p>
+          <p>
+            <a class="btn btn-success" href="#" role="button"
+              >Més detalls...&raquo;</a
+            >
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <img
+            class="img-circle"
+            src="img/esqui.png"
+            title="Josep"
+            width="140"
+            height="140"
+          />
+          <h2>Altres Aficions</h2>
+          <p align="justify">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur fugiat placeat est iste et necessitatibus non
+            perferendis voluptas distinctio architecto?
+          </p>
+          <p>
+            <a class="btn btn-success" href="#" role="button"
+              >Més detalls...&raquo;</a
+            >
+          </p>
+        </div>
+      </div>
+      <!-- Fi Articles Destacats -->
+
+      <!-- Inici el meu poble -->
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h4 class="featurette-heading">El meu poble:</h4>
+          <h4 class="text-muted">Avinyonet de Puigventós.</h4>
+
+          <p class="lead" align="justifi">
+            El municipi d'Avinyonet de Puigventós es troba gairebé al centre
+            geogràfic de la comarca de l'Alt Empordà...
+          </p>
+        </div>
+        <div class="col-md-5">
+          <br /><br /><br /><br /><br /><img
+            src="img/avinyonet.jpg"
+            title="Poble d'Avinyonet"
+            width="60%"
+            height="60%"
+            class="img-thumbnail"
+          />
+        </div>
+      </div>
+      <!-- Fi el meu poble -->
+
+      <!-- Inici el Follet -->
+      <div class="row featurette">
+        <div class="col-md-5 col-md-pull-7">
+          <br /><br /><br /><br /><br /><img
+            src="img/follet.jpg"
+            title="El Follet d'Avinyonet"
+            width="60%"
+            height="65%"
+            class="img-thumbnail"
+          />
+        </div>
+        <div class="col-md-7 col-md-push-5">
+          <h4 class="featurette-heading">“El Follet d’Avinyonet”</h4>
+          <h4 class="text-muted">Fira infantil.</h4>
+          <p class="lead" align="justifi">
+            Cada finals del mes de setembre (i molt rarament a principis
+            d'octubre), al casc antic d'Avinyonet...
+          </p>
+        </div>
+      </div>
+      <!-- Fi el Follet -->
+
+      <!-- Inici Pedra Seca -->
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h4 class="featurette-heading">Pedra seca.</h4>
+          <h4 class="text-muted">Avinyonet de Puigventós</h4>
+          <p class="lead" text-align="justifi">
+            La paret seca o pedra seca, i també pedra en sec, és una tècnica de
+            construcció tradicional i popular que consisteix a alçar murs de
+            pedra sense utilitzar cap mena de material de cohesió, com morter o
+            fang...
+          </p>
+        </div>
+        <div class="col-md-5">
+          <br /><br /><br /><br /><img
+            src="img/pedra_seca_1.jpg"
+            title="Pedra seca_1"
+            width="65%"
+            height="40%"
+            class="img-thumbnail"
+          />
+        </div>
+      </div>
+      <!-- Fi Pedra Seca -->
+
+      <!-- Inici Garriga -->
+      <div class="row featurette">
+        <div class="col-md-5 col-md-pull-7">
+          <br /><br /><<br /><br /><img
+            src="img/garriga emporda.jpg"
+            title="Garriga"
+            width="60%"
+            height="30%"
+            class="img-thumbnail"
+          />
+        </div>
+        <div class="col-md-7 col-md-push-5">
+          <h4 class="featurette-heading">La Garriga</h4>
+          <h4 class="text-muted">Alt Empordà</h4>
+          <p class="lead" text-align="justifi">
+            La Garriga d'Empordà és un espai natural protegit, que forma part
+            del PEIN (Pla d’Espais d’Interès Natural) de Catalunya, de paisatge
+            típicament mediterrani...
+          </p>
+        </div>
+      </div>
+      <!-- Fi Garriga -->
+    </div>
+    <!-- Fi Container -->
+    <!-- Inici Footer -->
+    <footer class="footer">
+      <p class="link">
+        <a class="language-c" href="documents/termes.html">Termes legals</a>
+        <a class="language-e" href="index.html">Pàgina d'inici</a>
+      </p>
+      <p class="footer-paragraf">
+        <b>Josep HERAS &copy; 2020</b> &middot; josepherasalsina@gmail.com
+        &middot; Última revisió, abril 2025 &middot;
+        <b>Tots els drets reservats.</b>
+      </p>
+    </footer>
+    <!-- Fi Footer -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+    <!--  Aquests sempre van al final del BODY, i fan referència a enllaços amb JavaScript de Bootstrap  -->
+  </body>
+  <!-- FI BODY -->
+</html>
+<!-- FI DOCUMENT -->

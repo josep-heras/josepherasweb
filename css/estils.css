@@ -1,0 +1,58 @@
+:root {
+  --theme-color: #ffffff;
+  --secundary-theme-color: #e0ffff;
+  --text-color: #000000;
+  --logo-color: #0101e0;
+  --navbar-separador-color: #808080;
+  --contruction-theme-color: #e0ffff;
+  --footer-theme-color: #000000;
+  --footer-text-color: #ffffff;
+  --footer-link-color: #fbff00;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 70px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--theme-color);
+  color: var(--text-color);
+  padding-top: 70px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.img-circle {
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.construction {
+  background-color: var(--contruction-theme-color);
+  text-align: center;
+  margin: 50px;
+}
+
+.construction img {
+  margin: 25px;
+}
+
+footer {
+  background-color: var(--footer-theme-color);
+  margin-top: 25px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.home {
+  text-align: center;
+  margin: 20px;
+}

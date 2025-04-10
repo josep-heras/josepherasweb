@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<!-- Tot document comença així -->
+<html lang="ca">
+  <!-- Reconeix l'idioma, en aquest cas el CATALÀ -->
+  <head>
+    <!-- INICI HEAD -->
+    <meta charset="UTF-8/" />
+    <!--  Reconeix els accents, ç l·l, etc... -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Per Internet Explorer -->
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <!-- Ajusta la pàgina a qualsevol dispositiu -->
+    <meta name="description" content="Pàgina web" />
+    <!-- Els navegadors ho utilitzen per posicionar la pàgina -->
+    <meta name="author" content="Josep Heras" />
+    <!-- Conté informació de l'autor de la pàgina -->
+
+    <title>Josep Heras WEB</title>
+    <!-- El tìtol que té la nostre pàgina -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Insereix les fonts per aquest projecte en aquest cas Montserrat de Google Fonts -->
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
+    <!-- Insereix la icona -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+    />
+    <!-- Insereix estils per la normalització a tots el navegadors -->
+    <link rel="stylesheet" href="../css/estils.css" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/carousel.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/contact.css" />
+    <link rel="stylesheet" href="../css/fontawesome.min.css" />
+    <!-- Insereix els estils de CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <!-- Insereix estils Bootstrap -->
+    <script defer src="js/app.js"></script>
+    <!-- Insereix estils Java Script -->
+  </head>
+  <!-- FI HEADv-->
+  <!-- =============================================================================================================================== -->
+  <!-- INICI BODY -->
+  <body>
+    <!-- Inici Logo -->
+    <header class="topheader">
+      <nav class="topnav">
+        <a href="../index.html" class="logo">
+          <img
+            height="100"
+            width="100"
+            src="../img/josep_p.jpg"
+            alt="logo Josep Heras"
+          />
+          <div class="logotype">
+            Josep<br />
+            Heras
+          </div>
+        </a>
+      </nav>
+    </header>
+    <!-- Fi Logo -->
+    <!-- Inici contacte -->
+    <section class="contact">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <br /><br />
+          <h2>Contacteu-me</h2>
+          <br /><br /><br />
+          <p text-align="justify">
+            Des d'aquí, podeu formular-me qualsevol consulta, sol·licitar
+            informació o fer-me arribar suggeriments.
+          </p>
+          <br />
+          <p text-align="justify">
+            Intentaré ser el més ràpid possible en respondre i contestar sempre.
+          </p>
+          <br />
+          <form
+            class="form-horizontal"
+            id="form"
+            name="form"
+            method="post"
+            action="mailto:pepshicola@gmail.com"
+            enctype="application/x-www-form-urlencoded"
+          >
+            <div class="form-group">
+              <label for="inputecorreu3" class="col-sm-2 control-label"
+                >Nom</label
+              >
+              <div class="col-sm-8">
+                <input
+                  type="ecorreu"
+                  class="form-control"
+                  id="inputecorreu3"
+                  placeholder="Nom i Cognom"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputecorreu3" class="col-sm-2 control-label"
+                >Població</label
+              >
+              <div class="col-sm-8">
+                <input
+                  type="ecorreu"
+                  class="form-control"
+                  id="inputecorreu3"
+                  placeholder="Població"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputecorreu3" class="col-sm-2 control-label"
+                >Correu electrònic</label
+              >
+              <div class="col-sm-8">
+                <input
+                  type="ecorreu"
+                  class="form-control"
+                  id="inputecorreu3"
+                  placeholder="ecorreu@exemple.com"
+                />
+              </div>
+            </div>
+            <strong
+              >De quin apartat voleu fer la consulta o suggeriment?:</strong
+            >
+            <select name="consulta">
+              <option value="btt" selected="selected" class="form-control">
+                BTT
+              </option>
+              <option value="road" class="form-control">ROAD Bike</option>
+              <option value="foto" class="form-control">Fotografia</option>
+              <option value="informatica" class="form-control">
+                Informàtica
+              </option>
+              <option value="motor" class="form-control">Motor</option>
+              <option value="varis" class="form-control">Varis</option>
+            </select>
+            <br /><br />
+            <strong>Comentaris:</strong>
+            <br />
+            <div class="col-sm-10">
+              <textarea
+                class="form-control"
+                name="textarea"
+                placeholder="Escriviu aquí els vostres comentaris"
+              ></textarea>
+            </div>
+            <br /><br /><br /><br />
+            <h5>
+              Dins del compromís de constant millora, la vostra opinió és molt
+              important, per la qual cosa us animo que em deixeu els comentaris
+              que creieu oportuns.
+            </h5>
+            <br /><br /><br />
+            <input type="submit" class="btn btn-success" value="Enviar" />
+            <input type="reset" class="btn btn-danger" value="Esborrar" />
+            <br /><br /><br />
+            <p>MOLTES GRÀCIES.</p>
+            <br /><br />
+          </form>
+          <br /><br />
+        </div>
+        <div class="home">
+          <p>
+            <a class="btn btn-primary" a href="contacte.html" role="button">
+              Inici
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Inici Footer -->
+    <footer class="footer">
+      <p class="link">
+        <a class="language-c" href="termes.html">Termes legals</a>
+        <a class="language-e" href="../index.html">Pàgina d'inici</a>
+      </p>
+      <p class="footer-paragraf">
+        <b>Josep HERAS &copy; 2020</b> &middot; josepherasalsina@gmail.com
+        &middot; Última revisió, abril 2025 &middot;
+        <b>Tots els drets reservats.</b>
+      </p>
+    </footer>
+    <!-- Fi Footer -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+    <!--  Aquests sempre van al final del BODY, i fan referència a enllaços amb JavaScript de Bootstrap  -->
+
+    <!-- FI BODY -->
+
+    <!-- FI DOCUMENT -->
+  </body>
+</html>

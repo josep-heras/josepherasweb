@@ -1,0 +1,22 @@
+.footer-paragraf {
+  color: var(--footer-text-color);
+  padding-bottom: 10px;
+}
+
+.link {
+  padding-top: 10px;
+}
+
+.language-c {
+  background-color: var(--footer-theme-color);
+  color: var(--footer-link-color);
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.language-e {
+  background-color: var(--footer-theme-color);
+  color: var(--footer-link-color);
+  text-decoration: none;
+  margin-left: 20px;
+}
